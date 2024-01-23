@@ -1,0 +1,66 @@
+#myJob {
+    background-color: black;
+    padding: 50px 0px;
+}
+
+#myJob h4 {
+    padding: 40px 0px;
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: white;
+}
+
+#jobSection {
+    width: 300px;
+    margin: auto;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.pictureBorder {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.jobPicture {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+
+.jobPicture:hover {
+    transform: scale(1.1);
+}
+
+#picture1 {
+    background-image: url('/public/picture1.jpg');
+}
+
+#picture2 {
+    background-image: url('/public/picture2.jpg');
+}
+
+#picture3 {
+    background-image: url('/public/picture3.jpg');
+}
+
+#picture4 {
+    background-image: url('/public/picture4.jpg');
+}
+
+#picture5 {
+    background-image: url('/public/picture5.jpg');
+}
+
+#picture6 {
+    background-image: url('/public/picture6.jpg');
+}
