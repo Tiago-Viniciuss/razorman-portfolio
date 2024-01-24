@@ -1,0 +1,32 @@
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.infoBox {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    transition: 1s;
+}
+
+#haircut {
+    display: none;
+}
+
+#haircut.active {
+    display: block;
+}
+
+#beard {
+    display: none;
+}
+
+#beard.active {
+    display: block;
+}
