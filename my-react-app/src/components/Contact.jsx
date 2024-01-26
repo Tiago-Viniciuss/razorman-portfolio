@@ -5,7 +5,7 @@ const Contact = () => {
  
 
   return (
-    <div className="contact-container">
+    <div className="contact-container" id='appointment'>
       <h2>Faça um agendamento</h2>
       <form id='appointment'>
         <label htmlFor="name">Nome:</label>

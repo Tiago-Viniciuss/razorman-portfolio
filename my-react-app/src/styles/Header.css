@@ -2,7 +2,7 @@
     #header {
         background-color: black;
         width: 100%;
-        height: 40px;
+        height: 50px;
         position: fixed;
         top: 0;
         left: 0;
@@ -12,6 +12,10 @@
         z-index: 99; 
     }
 
+    #header a {
+        color: white;
+    }
+
     #headerTitle {
         font-family: Arial, Helvetica, sans-serif;
         color: white;
@@ -19,7 +23,7 @@
         position: fixed;
         top: 0;
         left: 15px;
-        margin: 10px 0px 0px 0px;
+        margin: 15px 0px 0px 0px;
         font-size: 1em;
         transition: opacity 0.5s;
     }
@@ -38,10 +42,39 @@
         right: 0;
         font-size: 1.3em;
         font-weight: 500;
-        padding: 8px 15px;
+        padding: 0px 15px;
         background-color: black;
         color: white;
         border: none;
+    }
+
+    #navMenu {
+        background-color: black;
+        height: 100vh;
+        width: 0px;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        
+
+        position: fixed;
+        top: 0;
+        right: 0;
+        visibility: hidden;
+        transition: .5s;
+        overflow-x: hidden;
+        z-index: 97;
+    }
+
+    #navMenu.visible {
+        width: 100%;
+        visibility: visible;
+    }
+
+    #navMenu a {
+        text-decoration: none;
+        color: #DC3545;
     }
 
 }

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/Header.css'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -24,15 +25,31 @@ const Header = () => {
     };
   }, []);
 
-  
+  function openMenu() {
+      const menu = document.getElementById('navMenu')
+      menu.classList.toggle('visible')
+  }
+
+  function closeMenu() {
+    const menu = document.getElementById('navMenu')
+      menu.classList.toggle('visible')
+  }
 
 
   return (
     <div>
          <header id='header'>
-            <h1 id='headerTitle' className={`headerTitle ${isVisible ? 'visible' : 'hidden'}`}>Tiago Razorman</h1>
-            <button className='material-symbols-outlined' id='menuButton'>menu</button>
+            <h1 id='headerTitle' className={`headerTitle ${isVisible ? 'visible' : 'hidden'}`}><a href="#mainPage">Tiago Razorman</a></h1>
+            <button className='material-symbols-outlined' id='menuButton' onClick={openMenu}>menu</button>
         </header>
+        <menu id='navMenu'>
+            <a href="#" onClick={closeMenu}>Home</a>
+            <a href="#aboutMe" onClick={closeMenu}>Sobre Mim</a>
+            <a href="#myJob" onClick={closeMenu}>Meu Trabalho</a>
+            <a href="#appointment" onClick={closeMenu}>Agende um Horário</a>
+            <a href="#contact" onClick={closeMenu}>Entre em Contato</a>
+            <a href="#" onClick={closeMenu}>Galeria</a>
+        </menu>
     </div>
   )
 }

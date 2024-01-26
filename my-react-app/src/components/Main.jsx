@@ -12,7 +12,7 @@ const Main = () => {
                 <h2 className='redTitle'>Profissional</h2>
                 <p>Bem-vindo ao meu portfólio! Encontre aqui um pouco da minha história e inspirações para cortes de cabelo e barba.</p>
                 <button className='btn btn-danger'>
-                Entre em Contacto
+                <a href="https://wa.me/351911905251">Entre em Contacto</a>
                 </button>
             </div>
             <div id='mainPictureContainer'>

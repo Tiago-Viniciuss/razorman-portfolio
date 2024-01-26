@@ -7,7 +7,7 @@
         justify-content: space-around;
         align-items: center;
         gap: 15px;
-        padding-top: 50px;
+        padding-top: 70px;
     }
     
     #mainTitle {
@@ -37,6 +37,10 @@
         font-style: italic;
         font-size: 0.8em;
         margin-top: 20px;
+    }
+
+    #mainPage a {
+        color: white;
     }
     
     #mainPictureContainer {
