@@ -3,7 +3,7 @@ import '../styles/Home.css'
 import Main from '../components/Main'
 import AboutMe from '../components/AboutMe'
 import MyJob from '../components/MyJob'
-import Info from '../components/Info'
+import Contact from '../components/Contact'
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
         <Main/>
         <AboutMe/>
         <MyJob/>
-        <Info/>
+        <Contact/>
     </div>
   )
 }

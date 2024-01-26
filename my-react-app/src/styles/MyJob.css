@@ -21,46 +21,21 @@
     gap: 20px;
 }
 
+#jobSection img {
+    width: 250px;
+    height: 250px;
+
+    transition: 1s;
+}
+
+#jobSection img:hover {
+    transform: scale(1.1);
+}
+
 .pictureBorder {
     width: 250px;
     height: 250px;
     overflow: hidden;
     border: 1px solid black;
     border-radius: 5px;
-}
-
-.jobPicture {
-    width: 250px;
-    height: 250px;
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-}
-
-.jobPicture:hover {
-    transform: scale(1.1);
-}
-
-#picture1 {
-    background-image: url('/public/picture1.jpg');
-}
-
-#picture2 {
-    background-image: url('/public/picture2.jpg');
-}
-
-#picture3 {
-    background-image: url('/public/picture3.jpg');
-}
-
-#picture4 {
-    background-image: url('/public/picture4.jpg');
-}
-
-#picture5 {
-    background-image: url('/public/picture5.jpg');
-}
-
-#picture6 {
-    background-image: url('/public/picture6.jpg');
 }
