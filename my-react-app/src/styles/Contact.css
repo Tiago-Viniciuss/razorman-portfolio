@@ -1,14 +1,24 @@
-  .contact-container h2 {
-    padding: 40px 0px;
-    margin-left: 20px;
-    font-size: 1.5em;
-    color: black;
+  .contact-container {
+    display: flex;
+    flex-direction: column;
   }
 
-  form {
+  #appButton {
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  #appointment {
     max-width: 400px;
     margin: auto;
     padding: 25px;
+    display: none;
+  }
+
+  #appointment.visible {
+    display: block;
   }
 
   select {
@@ -24,6 +34,6 @@
     margin-bottom: 15px;
   }
 
-  button {
-    margin: 15px 0px;
+  form > button {
+    margin-top: 15px;
   }

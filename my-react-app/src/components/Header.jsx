@@ -46,8 +46,8 @@ const Header = () => {
             <a href="#" onClick={closeMenu}>Home</a>
             <a href="#aboutMe" onClick={closeMenu}>Sobre Mim</a>
             <a href="#myJob" onClick={closeMenu}>Meu Trabalho</a>
-            <a href="#appointment" onClick={closeMenu}>Agende um Horário</a>
-            <a href="#contact" onClick={closeMenu}>Entre em Contato</a>
+            <a href="#appButton" onClick={closeMenu}>Agende um Horário</a>
+            <a href="#footer" onClick={closeMenu}>Entre em Contacto</a>
             <a href="#" onClick={closeMenu}>Galeria</a>
         </menu>
     </div>
