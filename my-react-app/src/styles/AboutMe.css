@@ -1,3 +1,13 @@
+#razormanPicture {
+    background-image: url('/public/carousel1.jpg');
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 50px;
+}
+
 @media screen and (max-width: 650px) {
     #aboutMe {
         background-color: #F6F6F6;

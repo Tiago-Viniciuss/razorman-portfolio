@@ -13,11 +13,10 @@ const ImageCarousel = () => {
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
   };
 
   const images = [
-    'carousel1.jpg',
     'carousel2.jpg',
     'carousel3.jpg',
     'carousel4.jpg', 

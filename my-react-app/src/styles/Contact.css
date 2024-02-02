@@ -19,6 +19,7 @@
     border: 2px solid white;
     font-size: 0.9em;
     font-weight: bold;
+    transition: 1s;
   }
 
   #appointment {

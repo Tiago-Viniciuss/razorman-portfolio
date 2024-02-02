@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/Contact.css';
 import emailjs from '@emailjs/browser';
 
@@ -9,6 +9,27 @@ const Contact = () => {
   const [serviceDate, setServiceDate] = useState('');
   const [serviceHour, setServiceHour] = useState('09:00h');
   const [userMessage, setUserMessage] = useState('');
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+      const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const triggerPoint = 200;
+
+      if (scrollY > triggerPoint) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   function makeAppointment() {
     const appointment = document.getElementById('appointment')
@@ -67,7 +88,7 @@ const Contact = () => {
 
   return (
     <div className="contact-container" id='appointmentContainer'>
-      <button id='appButton' className='btn btn-dark' onClick={makeAppointment}>Agendar</button>
+      <button id='appButton' className={`headerTitle ${isVisible ? 'visible' : 'hidden'} btn btn-dark`} onClick={makeAppointment}>Agendar</button>
       <form id='appointment' onSubmit={sendEmail}>
       <h2>Faça o seu agendamento:</h2>
       <label htmlFor="name">Nome:</label>
