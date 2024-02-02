@@ -1,80 +1,161 @@
-@media screen and (max-width: 650px) {
+#header {
+    background-color: rgba(0, 0, 0, 0.623);
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    z-index: 99; 
+}
+
+#header a {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+#titleImage {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    background-size: cover;
+    background-image: url('/public/logo.png');
+}
+
+#headerTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 15px;
+    margin: 15px 0px 0px 0px;
+    font-size: 1em;
+    transition: opacity 0.5s;
+}
+
+.visible {
+    opacity: 1;
+  }
+  
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+#menuButton {
+    position: fixed;
+    right: 0;
+    font-size: 2em;
+    font-weight: 500;
+    padding: 0px 15px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+#navMenu {
+    background-color: black;
+    height: 100vh;
+    width: 0px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+
+    position: fixed;
+    top: -15px;
+    right: 0;
+    visibility: hidden;
+    transition: .5s;
+    overflow-x: hidden;
+    z-index: 97;
+}
+
+#navMenu.visible {
+    width: 100%;
+    visibility: visible;
+}
+
+#navMenu a {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (min-width: 650px) and (max-width: 1000px) {
     #header {
-        background-color: black;
-        width: 100%;
-        height: 50px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between; 
-        z-index: 99; 
+        height: 70px;
     }
-
-    #header a {
-        color: white;
-    }
-
-    #headerTitle {
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        background-color: black;
-        position: fixed;
-        top: 0;
-        left: 15px;
-        margin: 15px 0px 0px 0px;
-        font-size: 1em;
-        transition: opacity 0.5s;
-    }
-
-    .visible {
-        opacity: 1;
-      }
-      
-    .hidden {
-        opacity: 0;
-        pointer-events: none;
-      }
 
     #menuButton {
-        position: fixed;
-        right: 0;
-        font-size: 2em;
-        font-weight: 500;
-        padding: 0px 15px;
-        background-color: black;
-        color: white;
-        border: none;
-    }
-
-    #navMenu {
-        background-color: black;
-        height: 100vh;
-        width: 0px;
-        padding-top: 100px;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        
-
-        position: fixed;
-        top: 0;
-        right: 0;
-        visibility: hidden;
-        transition: .5s;
-        overflow-x: hidden;
-        z-index: 97;
-    }
-
-    #navMenu.visible {
-        width: 100%;
-        visibility: visible;
+        font-size: 2.5em;
     }
 
     #navMenu a {
         text-decoration: none;
         color: white;
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #header {
+        height: 70px;
     }
 
+    #menuButton {
+        visibility: hidden;
+        font-size: 2.5em;
+    }
+
+    #headerTitle {
+        background-color: transparent;
+    }
+
+    #titleImage {
+        width: 50px;
+        height: 50px;
+        margin-left: 25px;
+        background-color: transparent;
+        background-size: cover;
+        background-image: url('/public/logo.png');
+    }
+
+    #navMenu a {
+        text-decoration: none;
+        color: white;
+        background-color: transparent;
+        font-size: 1em;
+    }
+
+    #navMenu a:hover {
+        text-decoration: underline;
+    }
+    
+    #navMenu {
+        background-color: transparent;
+        height: 60px;
+        width: 70%;
+        padding-top: 20px;
+        padding-right: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: end;
+        gap: 60px;
+        margin: auto;
+        margin-right: 25px;
+        
+    
+        position: fixed;
+        top: 0;
+        right: 0;
+        visibility: visible;
+        overflow-x: visible;
+        z-index: 100;
+    }
 }

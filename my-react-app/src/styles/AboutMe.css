@@ -1,17 +1,45 @@
-#aboutMe {
-    background-color: #F6F6F6;
-    padding: 50px 0px;
+@media screen and (max-width: 650px) {
+    #aboutMe {
+        background-color: #F6F6F6;
+        padding: 50px 0px;
+    }
+
+    #aboutMe h3 {
+        padding: 40px 0px 10px 0px;
+        margin-left: 20px;
+        font-size: 1.5em;
+    }
+
+    #aboutMe p {
+        text-align: justify;
+        text-indent: 30px;
+        padding: 10px 20px;
+        margin: 5px;
+    }
 }
 
-#aboutMe h3 {
-    padding: 40px 0px 10px 0px;
-    margin-left: 20px;
-    font-size: 1.5em;
+@media screen and (min-width: 650px) {
+    #aboutMe {
+        background-color: #F6F6F6;
+        padding: 50px 0px;
+    }
+
+    #aboutMe h3 {
+        padding: 40px 0px 10px 0px;
+        margin-left: 50px;
+        font-size: 1.8em;
+    }
+    
+
+    #aboutMe p {
+        text-align: justify;
+        text-indent: 30px;
+        padding: 10px 100px;
+        margin: 5px;
+        
+    }
 }
 
-#aboutMe p {
-    text-align: justify;
-    text-indent: 30px;
-    padding: 10px 20px;
-    margin: 5px;
-}
+
+
+

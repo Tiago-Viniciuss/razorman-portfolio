@@ -1,0 +1,186 @@
+#articles {
+    background-color: black;
+    color: white;
+}
+
+.articlesAll {
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.623);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+header button {
+    background-color: transparent;
+    color: white;
+    font-size: 1.8em;
+    padding: 7px;
+    border: none;
+    width: 20%;
+}
+
+header button:hover {
+    border: none;
+}
+
+h1 {
+    font-size: 1.6em;
+    width: 80%;
+    color: white;
+}
+
+#articles h2 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#articles main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+#articles main div {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    
+}
+
+p {
+    padding: 30px;
+}
+
+/*
+
+------------ ARTICLE -------------------
+
+*/
+
+.backgroundArticle {
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.imgArticle {
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.thumbnailArticle {
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+}
+
+.thumbnailArticle:hover {
+    border: 2px solid #DC3545;
+}
+
+.thumbnailArticle span {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.73);
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+figcaption {
+    font-size: 0.6em;
+    font-weight: 600;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+#article1 {
+    background-image: url('/public/barberpole.jpg');
+}
+
+#article1:hover {
+    background-image: url('/public/barberpolePB.jpg');
+}
+
+#article2 {
+    background-image: url('/public/caspa.jpg');
+}
+
+#article2:hover {
+    background-image: url('/public/caspaPB.jpg');
+}
+
+#article3 {
+    background-image: url('/public/washing.jpg');
+}
+
+#article3:hover {
+    background-image: url('/public/washingPB.jpg');
+}
+
+
+#razor {
+    background-image: url('/public/razor.jpg');
+}
+
+#greek {
+    background-image: url('/public/greek.jpg');
+}
+
+#barbers {
+    background-image: url('/public/barbers.jpg');
+}
+
+#gillete {
+    background-image: url('/public/gillete.jpg');
+}
+
+#barberChair {
+    background-image: url('/public/barberChair.jpg');
+}
+
+article {
+    padding: 40px 0px;
+}
+
+article h3 {
+    text-align: center;
+    padding: 0px 10px;
+}
+
+article p {
+    text-indent: 20px;
+    text-align: justify;
+    padding: 20px;
+}

@@ -27,28 +27,33 @@ const Header = () => {
 
   function openMenu() {
       const menu = document.getElementById('navMenu')
-      menu.classList.toggle('visible')
+      if(window.innerWidth < 999) {
+        menu.classList.toggle('visible')
+      }
+      
   }
 
   function closeMenu() {
     const menu = document.getElementById('navMenu')
+    
+    if(window.innerWidth < 999) {
       menu.classList.toggle('visible')
+    }
   }
 
 
   return (
     <div>
          <header id='header'>
-            <h1 id='headerTitle' className={`headerTitle ${isVisible ? 'visible' : 'hidden'}`}><a href="#mainPage">Tiago Razorman</a></h1>
+            <h1 id='headerTitle' className={`headerTitle ${isVisible ? 'visible' : 'hidden'}`}><a href="#mainPage"><div id='titleImage'></div></a></h1>
             <button className='material-symbols-outlined' id='menuButton' onClick={openMenu}>menu</button>
         </header>
         <menu id='navMenu'>
             <a href="#" onClick={closeMenu}>Home</a>
             <a href="#aboutMe" onClick={closeMenu}>Sobre Mim</a>
             <a href="#myJob" onClick={closeMenu}>Meu Trabalho</a>
-            <a href="#appButton" onClick={closeMenu}>Agende um Horário</a>
             <a href="#footer" onClick={closeMenu}>Entre em Contacto</a>
-            <a href="#" onClick={closeMenu}>Galeria</a>
+            <Link onClick={closeMenu} to={'/articles'}>Artigos</Link>
         </menu>
     </div>
   )

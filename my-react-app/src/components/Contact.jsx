@@ -5,9 +5,9 @@ import emailjs from '@emailjs/browser';
 const Contact = () => {
   const [userName, setUserName] = useState('');
   const [userEmail, setUserEmail] = useState('');
-  const [userService, setUserService] = useState('');
+  const [userService, setUserService] = useState('Corte');
   const [serviceDate, setServiceDate] = useState('');
-  const [serviceHour, setServiceHour] = useState('');
+  const [serviceHour, setServiceHour] = useState('09:00h');
   const [userMessage, setUserMessage] = useState('');
 
   function makeAppointment() {
@@ -16,6 +16,7 @@ const Contact = () => {
 
     appointment.classList.add('visible')
     appointmentButton.style.display = 'none'
+    window.location.href = '#appointmentContainer';
   }
 
   const sendEmail = (e) => {
@@ -47,6 +48,7 @@ const Contact = () => {
     emailjs.send("service_5ncmbfl", "template_qtymn2a", templateParams, "M5TCiSZE8QOgiAt8N")
       .then((response) => {
         console.log('Email Enviado', response.status, response.text);
+        alert(`Parabéns, ${userName}! O agendamento foi feito com sucesso.`)
         setUserName('');
         setUserEmail('');
         setUserService('');
@@ -61,20 +63,19 @@ const Contact = () => {
 
   const handleRefresh = () => {
     window.location.reload();
-
-    window.location.href = '#appointment';
   };
 
   return (
     <div className="contact-container" id='appointmentContainer'>
-      <button id='appButton' className='btn btn-dark' onClick={makeAppointment}>Agendar um horário</button>
+      <button id='appButton' className='btn btn-dark' onClick={makeAppointment}>Agendar</button>
       <form id='appointment' onSubmit={sendEmail}>
+      <h2>Faça o seu agendamento:</h2>
       <label htmlFor="name">Nome:</label>
-        <input className='form-control' type="text" id="name" name="name" placeholder='Qual o seu nome?' onChange={(e)=>setUserName(e.target.value)} value={userName}/>
+        <input className='form-control' type="text" id="name" name="name" placeholder='Qual o seu nome?' onChange={(e)=>setUserName(e.target.value)} value={userName} required/>
         <label htmlFor="email">E-mail:</label>
-        <input className='form-control' type="email" id="email" name="email" placeholder='Insira o seu email' onChange={(e)=>setUserEmail(e.target.value)} value={userEmail}/>
+        <input className='form-control' type="email" id="email" name="email" placeholder='Insira o seu email' onChange={(e)=>setUserEmail(e.target.value)} value={userEmail} required/>
         <label htmlFor="service">Qual o tipo de serviço?</label>
-        <select name="service" id="service" className='form-control' required onChange={(e)=>setUserService(e.target.value)} value={userService}>
+        <select name="service" id="service" className='form-control' onChange={(e)=>setUserService(e.target.value)} value={userService} required>
           <optgroup>
             <option value="none" disabled>-- Escolha uma opção --</option>
             <option value="Corte de Cabelo">Corte 14€</option>
@@ -83,9 +84,9 @@ const Contact = () => {
           </optgroup>
         </select>
         <label htmlFor="date">Qual a data do agendamento?</label>
-        <input type="date" name="date" id="date" className='form-control' onChange={(e)=>setServiceDate(e.target.value)} value={serviceDate}/>
+        <input type="date" name="date" id="date" className='form-control' onChange={(e)=>setServiceDate(e.target.value)} value={serviceDate} required/>
         <label htmlFor="hour">Escolha o horário:</label>
-        <select name="hour" id="hour" className='form-control' required onChange={(e)=>setServiceHour(e.target.value)} value={serviceHour}>
+        <select name="hour" id="hour" className='form-control' onChange={(e)=>setServiceHour(e.target.value)} value={serviceHour} required>
           <optgroup>
             <option value="none" disabled>-- Escolha uma opção --</option>
             <option value="09:00h">09:00h</option>

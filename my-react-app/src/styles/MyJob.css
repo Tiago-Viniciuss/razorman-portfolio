@@ -3,6 +3,7 @@
     padding: 50px 0px;
 }
 
+
 #myJob h4 {
     padding: 40px 0px;
     margin-left: 20px;
@@ -22,13 +23,13 @@
 }
 
 .pictureBorder {
-    width: 250px;
-    height: 250px;
-    overflow: hidden;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    
 .jobPicture {
     width: 250px;
     height: 250px;
@@ -64,3 +65,30 @@
 #picture6 {
     background-image: url('/public/picture6.jpg');
 }
+
+
+
+@media screen and (min-width: 650px) and (max-width: 1000px) {
+    #myJob h4 {
+        margin-left: 50px;
+        font-size: 1.8em;
+    }
+    
+    #jobSection {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #myJob h4 {
+        margin-left: 50px;
+        font-size: 1.8em;
+    }
+    
+    #jobSection {
+        width: 900px;
+    }
+    
+    
+}
+
