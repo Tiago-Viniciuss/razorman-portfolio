@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import Home from './routes/Home.jsx'
+import Appointment from './routes/Appointment.jsx'
 import Articles from './routes/Articles.jsx'
 import Article1 from './routes/articles/Article1.jsx'
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home/>,
       },
+      {
+        path: "/appointment",
+        element: <Appointment/>,
+      }, 
       {
         path: "/articles",
         element: <Articles/>,

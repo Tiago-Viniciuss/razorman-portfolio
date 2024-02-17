@@ -41,6 +41,13 @@ const Header = () => {
     }
   }
 
+  function navigateTop() {
+    const menu = document.getElementById('navMenu')
+
+    window.scrollTo(0, 0);
+    menu.classList.toggle('visible')
+}
+
 
   return (
     <div>
@@ -53,7 +60,7 @@ const Header = () => {
             <a href="#aboutMe" onClick={closeMenu}>Sobre Mim</a>
             <a href="#myJob" onClick={closeMenu}>Meu Trabalho</a>
             <a href="#footer" onClick={closeMenu}>Entre em Contacto</a>
-            <Link onClick={closeMenu} to={'/articles'}>Artigos</Link>
+            <Link onClick={navigateTop} to={'/articles'}>Razor Blog</Link>
         </menu>
     </div>
   )

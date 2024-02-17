@@ -1,10 +1,9 @@
-  .contact-container {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
+  #appointmentContainer {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
   }
 
-  .contact-container h2 {
+  #appointmentContainer h2 {
     padding: 25px;
   }
 
@@ -23,15 +22,11 @@
   }
 
   #appointment {
-    max-width: 400px;
+    width: 100%;
     margin: auto;
     padding: 25px;
-    display: none;
-  }
-
-  #appointment.visible {
     display: block;
-    padding-top: 50px;
+    background-color: white;
   }
 
   select {
@@ -52,28 +47,35 @@
 
   form > button {
     margin-top: 15px;
+    margin-bottom: 15px;
     width: 100%;
   }
 
   @media screen and (min-width: 650px) and (max-width: 1000px) {
+    #appointmentContainer {
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+    }
+
     #appButton {
       margin-top: 60px;
       margin-bottom: 60px;
     }
   
     #appointment {
-      max-width: 550px;
-      display: none;
+      width: 100%;
+      display: block;
       flex-direction: row;
       flex-wrap: wrap;
     }
   
-    #appointment.visible {
-      display: flex;
-    }
   }
 
   @media screen and (min-width: 1000px) {
+    #appointmentContainer {
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+    }
 
     #appButton {
       margin-top: 60px;
@@ -82,13 +84,10 @@
   
     #appointment {
       max-width: 750px;
-      display: none;
+      display: block;
       flex-direction: row;
       flex-wrap: wrap;
     }
   
-    #appointment.visible {
-      display: flex;
-    }
     
   }

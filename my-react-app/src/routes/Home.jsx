@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/Home.css'
 import Header from '../components/Header'
+import AppointmentButton from '../components/AppointmentButton'
 import Main from '../components/Main'
 import AboutMe from '../components/AboutMe'
 import MyJob from '../components/MyJob'
-import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
 const Home = () => {
@@ -13,8 +13,8 @@ const Home = () => {
         <Header/>
         <Main/>
         <AboutMe/>
+        <AppointmentButton/>
         <MyJob/>
-        <Contact/>
         <Footer/>
     </div>
   )

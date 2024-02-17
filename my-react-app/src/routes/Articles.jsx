@@ -13,7 +13,7 @@ const Articles = () => {
         <Link to={'/'}>
             <button className='material-symbols-outlined'>home</button>
         </Link>
-        <h1>Artigos</h1>
+        <h1>Razor Blog</h1>
       </header>
         <h2>
           Curiosidades e ensinamentos dentro da área da barbearia
@@ -24,20 +24,13 @@ const Articles = () => {
               <span>A história da Barbearia</span>
             </div>
           </Link>
-          <Link to={'/article2'}>
             <div className='thumbnailArticle' id='article2'>
               <span>Como controlar a caspa</span>
             </div>
-          </Link>
-          <Link to={'/article3'}>
             <div className='thumbnailArticle' id='article3'>
               <span>Cuidados para a barba</span>
             </div>
-          </Link>
         </main>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti harum quod blanditiis ut aliquid placeat dolorum saepe laboriosam sapiente voluptatibus non expedita, id, praesentium natus eos dolor distinctio quis quisquam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure optio temporibus autem blanditiis nam nihil rem. Adipisci quam aut, quo laboriosam cupiditate repellendus, nobis nesciunt illum unde nostrum molestiae corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit enim officia quaerat ipsum quo aperiam eveniet obcaecati aut dolore eaque commodi optio dolores sint, error assumenda distinctio, dolorum veniam?
-        </p>
         <Footer/>
     </div>
   )
