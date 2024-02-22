@@ -1,11 +1,11 @@
 footer {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 footer h3 {
@@ -47,16 +47,17 @@ footer p {
 footer .copyright {
     margin-top: 25px;
     font-size: 0.6em;
+    text-align: center;
 }
 
 footer a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: underline;
     font-weight: lighter;
 }
 
 footer a:hover {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 @media screen and (min-width: 1000px) {
@@ -78,13 +79,13 @@ footer a:hover {
     }
     
     footer a {
-        color: white;
+        color: rgb(0, 0, 0);
         text-decoration: none;
         font-weight: lighter;
     }
     
     footer a:hover {
         text-decoration: underline;
-        color: white;
+        color: rgb(0, 0, 0);
     }
 }

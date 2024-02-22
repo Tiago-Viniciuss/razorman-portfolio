@@ -4,10 +4,17 @@ import '/src/styles/Articles.css'
 import Footer from '../../components/Footer'
 
 const Article1 = () => {
+
+  function navigateTop() {
+      
+    window.scrollTo(0, 0);
+
+  }
+
   return (
     <div className='articlesAll'>
       <header>
-        <Link to={'/articles'}>
+        <Link to={'/articles'} onClick={navigateTop}>
             <button className='material-symbols-outlined'>arrow_back_ios</button>
         </Link>
         <h1>A história da barbearia</h1>

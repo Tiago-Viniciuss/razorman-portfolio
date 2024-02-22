@@ -12,6 +12,28 @@
     color: white;
 }
 
+#mission {
+    background-color: black;
+    color: white;
+}
+
+#mission h5 {
+    padding: 40px 0px 0px 0px;
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+
+#mission p {
+    text-align: justify;
+    text-indent: 30px;
+    padding-top: 15px;
+}
+
+#mission span {
+    color: #DC3545;
+}
+
 #myJob p {
     text-align: justify;
     text-indent: 30px;
@@ -77,18 +99,36 @@
 
 @media screen and (min-width: 650px) and (max-width: 1000px) {
     #myJob h4 {
-        margin-left: 50px;
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    #mission h5 {
+        text-align: center;
         font-size: 1.8em;
     }
     
     #jobSection {
         width: 600px;
     }
+
+    #myJob p {
+        text-align: justify;
+        text-indent: 30px;
+        padding: 30px 20px 70px 20px;
+        margin: auto;        
+    }
+    
 }
 
 @media screen and (min-width: 1000px) {
     #myJob h4 {
-        margin-left: 50px;
+        text-align: center;
+        font-size: 2.3em;
+    }
+
+    #mission h5 {
+        text-align: center;
         font-size: 1.8em;
     }
     
@@ -100,8 +140,7 @@
         text-align: justify;
         text-indent: 30px;
         padding: 30px 100px 70px 100px;
-        margin: 5px;
-        
+        margin: auto;        
     }
 }
 

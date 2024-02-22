@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <footer id='footer'>
         <h3>
-          Entre em contacto através das redes abaixo:
+          Entre em contato através das redes abaixo:
         </h3>
         <section id='socialMedia'>
           <a href="https://wa.me/351911905251">

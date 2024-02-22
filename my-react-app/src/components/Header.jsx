@@ -59,7 +59,7 @@ const Header = () => {
             <a href="#" onClick={closeMenu}>Home</a>
             <a href="#aboutMe" onClick={closeMenu}>Sobre Mim</a>
             <a href="#myJob" onClick={closeMenu}>Meu Trabalho</a>
-            <a href="#footer" onClick={closeMenu}>Entre em Contacto</a>
+            <a href="#footer" onClick={closeMenu}>Entre em Contato</a>
             <Link onClick={navigateTop} to={'/articles'}>Razor Blog</Link>
         </menu>
     </div>

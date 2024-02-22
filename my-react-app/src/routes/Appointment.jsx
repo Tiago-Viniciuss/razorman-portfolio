@@ -49,7 +49,7 @@ const Appointment = () => {
     emailjs.send("service_5ncmbfl", "template_qtymn2a", templateParams, "M5TCiSZE8QOgiAt8N")
       .then((response) => {
         console.log('Email Enviado', response.status, response.text);
-        alert(`Parabéns, ${userName}! O agendamento foi feito com sucesso.`)
+        alert(`Obrigado, ${userName}! O agendamento foi feito com sucesso para o dia ${formattedDate} às ${serviceHour}.`)
         setUserName('');
         setUserEmail('');
         setUserService('');

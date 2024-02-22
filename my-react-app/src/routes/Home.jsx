@@ -5,6 +5,7 @@ import AppointmentButton from '../components/AppointmentButton'
 import Main from '../components/Main'
 import AboutMe from '../components/AboutMe'
 import MyJob from '../components/MyJob'
+import Mission from '../components/Mission'
 import Footer from '../components/Footer'
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
         <AboutMe/>
         <AppointmentButton/>
         <MyJob/>
+        <Mission/>
         <Footer/>
     </div>
   )
