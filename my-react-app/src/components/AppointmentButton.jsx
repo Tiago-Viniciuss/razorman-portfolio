@@ -1,8 +1,11 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import {Trans, useTranslation} from 'react-i18next'
 
 const AppointmentButton = () => {
+
+    const {t} = useTranslation()
 
     const [isVisible, setIsVisible] = useState(false);
    
@@ -33,7 +36,7 @@ const AppointmentButton = () => {
   return (
     <div>
         <Link to={'/appointment'} onClick={navigateTop}>
-            <button id='appButton' className={`headerTitle ${isVisible ? 'visible' : 'hidden'} btn btn-dark`}>Agendar</button>
+            <button id='appButton' className={`headerTitle ${isVisible ? 'visible' : 'hidden'} btn btn-dark`}>{t("appointment.title")}</button>
         </Link>
     </div>
   )

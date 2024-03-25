@@ -2,8 +2,11 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 import '../styles/Articles.css'
+import {Trans, useTranslation} from 'react-i18next'
 
 const Articles = () => {
+
+  const {t} = useTranslation()
 
   function navigateTop() {
       
@@ -20,22 +23,22 @@ const Articles = () => {
         <h1>Razor Blog</h1>
       </header>
         <h2>
-          Curiosidades e ensinamentos dentro da área da barbearia
+          {t("blog.title")}
         </h2>
         <main>
           <Link to={'/article1'} onClick={navigateTop}>
             <div className='thumbnailArticle' id='article1'>
-              <span>A história da Barbearia</span>
+              <span>{t("blog.article1")}</span>
             </div>
           </Link>
             <Link to={'/article2'} onClick={navigateTop}>
               <div className='thumbnailArticle' id='article2'>
-                <span>Como controlar a caspa</span>
+                <span>{t("blog.article2")}</span>
               </div>
             </Link>
             <Link to={'/article3'} onClick={navigateTop}>
               <div className='thumbnailArticle' id='article3'>
-                <span>Cuidados para a barba</span>
+                <span>{t("blog.article3")}</span>
               </div>
             </Link>
         </main>

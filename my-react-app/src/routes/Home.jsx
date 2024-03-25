@@ -7,11 +7,13 @@ import AboutMe from '../components/AboutMe'
 import MyJob from '../components/MyJob'
 import Mission from '../components/Mission'
 import Footer from '../components/Footer'
+import CookiesPopup from '../components/CookiesPopup'
 
 const Home = () => {
   return (
     <div>
         <Header/>
+        <CookiesPopup/>
         <Main/>
         <AboutMe/>
         <AppointmentButton/>

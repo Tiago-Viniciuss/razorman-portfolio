@@ -1,0 +1,71 @@
+{   "menu": {"aboutme": "About Me", "myjob": 
+    "My Job", "contact": "Keep in Touch"},
+    "profession": {"title": "Professional", "subtitle": "Barber"},
+    "welcome": {"title": "Welcome to my portfolio! Find here a little of my story and inspiration for haircuts and beards."},
+    "contactbutton": {"title": "Keep in touch"},
+    "appointment": {"title": "Book"},
+    "h3": {"title": "Keep in touch through the social medias below:"},
+    "rights": {"title": "All rights reserved"},
+    "aboutme": {"title": "About Me", "subtitle": "I am Tiago Vinícius, but I have been using the nickname Razorman for almost 6 years, when I decided to adopt an artistic name for social media. Since then, some clients and friends call me Razorman or Tiago Razorman. I started working from an early age, helping my parents with a variety of tasks. At the age of 20, after leaving my job at a grocery store with the dream of having my own business, I became a professional barber and started my career. I opened my first barbershop, called 'New Greece', and later my second, called 'Trad House', this time with a tattoo studio and a more alternative concept. It's been almost a decade since my first haircut, and today I'm proud to have transformed so many clients into happier people with the power of my art. It is a professional and personal challenge."},
+    "myjob": {"title": "My Job", "subtitle": "I tend to do a wide variety of haircuts and beard styles, from the most traditional to the most modern. And the most impressive thing is that some classic cuts, like the mullet, for example, have returned strongly to the market and are being increasingly requested. Just as the long beard gained new attention in the last decade, leaving the traditional straight face behind. In addition to updating myself on men's cuts for adults, I also always try to provide an excellent service to children and even women. In the latter case, I only make specific cuts, but this makes me a very versatile barber."},
+    "mymission": {"title": "My Mission", "subtitle": "My mission within the barbershop has always been and will always be to provide excellent service to my client, followed by an extremely satisfactory cut or shave. I have heard hundreds of reports from clients who were dissatisfied with other professionals in the field and I have always tried to be very attentive to the client's request and the details of the service execution. In all these years of barbering, I have collected good stories and made many friends, being as professional and truthful as possible. Furthermore, I believe that good humor, good music, a pleasant atmosphere and good conversation are components that make the barbershop experience so special."},
+    "book": {"title": "Make your appointment:", "name": "Name:", "service": "Which type of service?", "date": "For when?", "hour": "Choose the time:", "observation": "Observations:", "button1": "Book Appointment", "button2": "Cancel", "placeholdername": "What's your name?", "placeholderemail": "What's your email", "placeholderobservation": "Write something relevant to the desired service...", "haircut": "Haircut 14€", "beard": "Beard 10€", "haircut+beard": "Haircut + Beard 24€", "select": "-- Choose an option --"},
+    "blog": {
+        "title": "Curiosities and teachings within the barbershop area", "article1": "The history of the barbershop", "article2": "How to control dandruff", "article3": "Beard care",
+        "morearticles": "Other Articles:"
+    },
+    "article1": {
+        "title1": "The Evolution of Barbering: A Journey Through Time",
+        "title2": "Ancient Era: Rituals and Personal Care",
+        "title3": "Middle Ages: Barbershops and Society",
+        "title4": "Renaissance: Styles and Elegance",
+        "title5": "19th Century: The Golden Age of Barbering",
+        "title6": "20th Century: Decline and Resurgence",
+        "title7": "Present Day: The Renaissance of Modern Barbershops",
+
+        "paragraph1": "The practice of grooming the beard and hair dates back to time immemorial, reflecting not only vanity but also cultural and social changes throughout history. The history of barbering is fascinating, marked by an evolution that ranges from ancient rituals to the modern resurgence of well-groomed beards.",
+        "paragraph2": "Historical records indicate that barbering has deep roots in antiquity. Civilizations such as the Egyptians, Greeks, and Romans practiced the art of beard and hair grooming. In Ancient Greece, for example, the beard was associated with virility, but soldiers shaved it off to prevent enemies from using it as a handle in battle. Egyptians, on the other hand, used copper and gold razors to trim their beards.",
+        "paragraph3": "During the Middle Ages, the practice of shaving gained more structure with the emergence of the first barber shops. These establishments were not only places for beard care but also social spaces where men gathered to converse and share news. Barber shops became community centers, providing more than just shaving services.",
+        "paragraph4": "With the Renaissance came a resurgence of interest in personal aesthetics. The beard was once again seen as a symbol of status and style. Famous paintings of the time depicted men with well-groomed beards, reflecting the influence of fashion on society at the time. Barber shops continued to be important venues for social gatherings, where conversations mingled with the sound of razors.",
+        "paragraph5": "The 19th century witnessed the peak of barber shops, especially in Europe and the United States. Men frequented these establishments not only for beard trimming but also for broader personal care experiences such as baths and massages. The popularity of barber shops was related to the growing focus on personal hygiene and well-being.",
+        "paragraph6": "With the advent of disposable razors and the simplification of personal grooming at home, barber shops faced a decline in the 20th century. Many of them closed their doors, and the practice of shaving became more of a household activity. However, the turn of the 21st century brought about a resurgence of interest in beards and male aesthetics. Modern barber shops combine vintage charm with contemporary services, providing customers with a unique experience.",
+        "paragraph7": "Modern barber shops have become true havens for men seeking specialized personal care. Offering services that go beyond simple haircuts and beard trims, these establishments are designed to create unique experiences. The culture of the beard has flourished once again, reflecting a society that values individuality and personal expression. In conclusion, the history of barbering is a fascinating journey through time, reflecting changes in cultural and social attitudes towards male aesthetics. From ancient rituals to modern barber shops, the practice of shaving has evolved, but its importance as a ritual of personal care and social space remains undeniable.",
+        "figcaption1": "Statue depicting a Greek man with a beard.",
+        "figcaption2": "Barbers working in the 19th century.",
+        "figcaption3": "Homemade razor with brush.",
+        "figcaption4": "Modern barbershop of the 21st century."
+    },
+    
+    "article2": {
+        "title1": "Understanding and Controlling Dandruff: A Professional Guide",
+        "title2": "What is Dandruff and What Causes It?",
+        "title3": "Professional Strategies for Controlling Dandruff:",
+
+        "paragraph1": "Dandruff is a common scalp condition that affects millions of people worldwide. Although not harmful to health, it can be uncomfortable and embarrassing. Fortunately, there are several effective strategies for controlling dandruff and maintaining a healthy scalp. In this article, we will explore the causes of dandruff and provide professional guidance on how to manage it effectively.",
+        "paragraph2": "Fungal Overgrowth: The presence of the fungus Malassezia on the scalp can trigger an inflammatory reaction, leading to excessive flaking. Sebum Production: An imbalance in sebum production by the scalp can contribute to dandruff development. Both excessive and insufficient sebum production can be triggering factors. Sensitivity to Hair Products: Some hair products, such as harsh shampoos or heavy conditioners, can irritate the scalp and contribute to dandruff formation. Stress and Health Conditions: Stress, as well as certain health conditions like seborrheic dermatitis, eczema, and psoriasis, can increase the risk of developing dandruff.",
+        "paragraph3": "Choose Suitable Products: Opt for gentle shampoos and conditioners formulated specifically for sensitive and dandruff-prone scalp. Look for active ingredients such as zinc pyrithione, selenium sulfide, coal tar, or ketoconazole, known to combat the fungi responsible for dandruff. Regular Hair Washing: Washing your hair regularly helps to remove oil buildup and dead skin cells, thus reducing the chance of developing dandruff. However, avoid excessive washing as it may dry out the scalp and worsen the problem. Avoid Very Hot Water: Hot water can dry out the scalp and increase irritation. Opt for lukewarm or cold water when washing your hair to help maintain the skin's natural hydration. Maintain a Balanced Diet: A healthy and balanced diet can help strengthen the immune system and reduce inflammation, which can be beneficial for controlling dandruff. Consider including foods rich in omega-3 fatty acids, B vitamins, and zinc in your diet. Reduce Stress: Stress can play a significant role in dandruff development. Practice stress management techniques such as meditation, yoga, or breathing exercises to help reduce symptoms. Consult a Dermatologist: If symptoms persist despite self-care measures, it is important to consult a dermatologist. They can assess your scalp and recommend specific treatments, such as topical medications or laser therapies, to help control dandruff effectively.",
+        "paragraph4": "In summary, controlling dandruff requires a holistic approach that includes choosing suitable products, maintaining healthy hair hygiene habits, and caring for the overall health of the scalp. By following these professional guidelines, it is possible to effectively manage dandruff and enjoy a healthy, flake-free scalp.",
+        "figcaption1": "Fungus seen under the microscope.",
+        "figcaption2": "Quality cosmetics.",
+        "figcaption3": "Happy, dandruff-free man."   
+    },
+    "article3": {
+        "title1": "Want to Take Better Care of Your Beard? Let Me Help You!",
+        "title2": "Proper Hygiene:",
+        "title3": "Use of Quality Cosmetics:",
+        "title4": "Importance of the Barber:",
+        "paragraph1": "Having a well-groomed beard is not just about letting it grow. It requires dedicating time and attention to its hygiene and using suitable products. Additionally, we cannot forget the importance of regularly visiting a barber to keep the look sharp. In this article, we will explore the essential steps to care for your beard, from hygiene to the use of quality cosmetics, highlighting the crucial role of the barber in this process.",
+        "paragraph2": "Regularly wash your beard with a specific beard shampoo. Avoid using hair shampoo as it can dry out the skin and hair. Dry your beard thoroughly after washing to prevent moisture buildup, which can lead to fungal and bacterial growth. Use a beard comb or brush to detangle the hair and distribute natural oils along the beard. It's worth noting that washing your face too often with hot water isn't very healthy for the skin. Warm or hot water tends to dry out the skin and may even increase oiliness in some different skin types. Opt for cold water instead.",
+        "paragraph3": "In addition to hygiene, it's important to use quality products to maintain the health and beauty of your beard. Here are some essential products: Beard oil: Oil helps moisturize the hair, prevent dryness, and add shine to the beard. Look for products with natural ingredients such as essential oils and plant extracts. Beard balm or wax: These products are ideal for shaping the beard and controlling unruly hair. They also help maintain hydration and protect the beard from external aggressions. Aftershave lotion: After shaving, it's important to apply an aftershave lotion to soothe the skin and prevent irritation.",
+        "paragraph4": "Regularly visiting a barber is essential to keep your beard healthy and looking sharp. Here are some reasons why the barber is so important: Professional cutting and styling: A skilled barber will know how to cut and style your beard according to your face shape and personal preferences. Specialized treatments: Barbers offer a variety of specialized treatments such as hydration, toning, and revitalization of the beard. Personalized guidance: A good barber can provide personalized guidance on beard care, recommending the most suitable products and techniques for your skin type and lifestyle.",
+        "paragraph5": "In summary, taking care of your beard involves a combination of proper hygiene, use of quality cosmetics, and regular visits to the barber. By following these tips, you can keep your beard healthy, beautiful, and impeccably groomed.",
+        "figcaption1": "Man thoroughly washing his face.",
+        "figcaption2": "Beard cosmetics.",
+        "figcaption3": "Barber attending to a client."
+    },
+    "cookies": {
+        "title": "Cookies Policy",
+        "subtitle": "This website uses cookies to ensure you get the best experience.",
+        "button1": "Accept", "button2": "Decline"
+    }
+}

@@ -36,7 +36,7 @@ header button:hover {
 }
 
 h1 {
-    font-size: 1.6em;
+    font-size: 1.2em;
     width: 80%;
     color: white;
 }
@@ -109,7 +109,7 @@ p {
 
 .thumbnailArticle span {
     color: white;
-    background-color: rgba(0, 0, 0, 0.73);
+    background-color: rgba(0, 0, 0, 0.83);
     width: 100%;
     height: 50px;
     padding: 5px;
@@ -218,6 +218,17 @@ article p {
     padding: 20px;
 }
 
+aside {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px 0px;
+}
+
+aside .links {
+    margin-top: 25px;
+}
+
 
 @media screen and (min-width: 500px){
     .backgroundArticle {
@@ -264,6 +275,21 @@ article p {
     article h3 {
         margin-top: 40px;
     }
+
+    aside {
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 40px 0px;
+    }
+
+    aside .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        margin-top: 35px;
+    }
 }
 
 @media screen and (min-width: 900px){
@@ -290,6 +316,14 @@ article p {
     .imgArticle {
         width: 400px;
         height: 500px;
+    }
+
+    aside .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        margin-top: 35px;
     }
 }
 
@@ -329,5 +363,13 @@ article p {
         gap: 20px;
         margin-top: 60px;
         margin: auto;
+    }
+
+    aside .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 55px;
     }
 }

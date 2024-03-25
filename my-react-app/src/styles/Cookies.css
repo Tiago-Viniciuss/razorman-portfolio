@@ -1,0 +1,18 @@
+.cookiePopup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+button {
+    border: none;
+}
+
+button:focus {
+    border: none;
+}

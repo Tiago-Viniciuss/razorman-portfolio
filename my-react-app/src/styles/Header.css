@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
+    align-items: center;
     z-index: 99; 
 }
 
@@ -45,7 +46,21 @@
     pointer-events: none;
   }
 
+
+  #changeLanguage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    color: white;
+  }
+  
+
 #menuButton {
+    width: 70px;
     position: fixed;
     right: 0;
     font-size: 2em;
@@ -148,7 +163,7 @@
         align-items: end;
         gap: 60px;
         margin: auto;
-        margin-right: 25px;
+        margin-right: 100px;
         
     
         position: fixed;
@@ -158,4 +173,10 @@
         overflow-x: visible;
         z-index: 100;
     }
+
+    #changeLanguage {
+        position: absolute;
+        right: 0px;
+        top: 35px;
+      }
 }

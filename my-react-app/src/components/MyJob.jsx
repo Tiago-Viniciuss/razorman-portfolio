@@ -1,14 +1,16 @@
 import React from 'react'
 import '../styles/MyJob.css'
+import { Trans, useTranslation } from 'react-i18next'
 
 const MyJob = () => {
+    const {t} = useTranslation()
   return (
     <div id='myJob'>
         <h4>
-            Meu Trabalho
+           {t("myjob.title")}
         </h4>
         <p>
-            Costumo fazer os mais variados estilos de corte de cabelo e barba, desde os mais tradicionais até os mais modernos. E o mais impressionante é que alguns cortes clássicos, como o <i>mullet</i>, por exemplo, voltaram com força ao mercado e estão sendo cada vez mais pedidos. Assim como a barba longa ganhou novos holofotes na última década, deixando o tradicional rosto liso para trás. Além de me atualizar em cortes masculinos para adultos, também busco sempre prestar um excelente serviço às crianças e até mulheres. Neste último caso, faço apenas cortes específicos, porém isto torna-me um barbeiro bastante versátil.
+        {t("myjob.subtitle")}
         </p>
         <section id='jobSection'>
             <div className='pictureBorder'>
@@ -28,6 +30,24 @@ const MyJob = () => {
             </div>
             <div className='pictureBorder'>
                 <div id="picture6" className='jobPicture'></div>
+            </div>
+            <div className='pictureBorder'>
+                <div id="picture7" className='jobPicture'></div>
+            </div>
+            <div className='pictureBorder'>
+                <div id="picture8" className='jobPicture'></div>
+            </div>
+            <div className='pictureBorder'>
+                <div id="picture9" className='jobPicture'></div>
+            </div>
+            <div className='pictureBorder'>
+                <div id="picture10" className='jobPicture'></div>
+            </div>
+            <div className='pictureBorder'>
+                <div id="picture11" className='jobPicture'></div>
+            </div>
+            <div className='pictureBorder'>
+                <div id="picture12" className='jobPicture'></div>
             </div>
         </section>
     </div>

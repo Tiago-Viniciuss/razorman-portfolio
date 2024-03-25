@@ -84,7 +84,7 @@
 }
 
 #picture4 {
-    background-image: url('/public/picture4.jpg');
+    background-image: url('/public/picture4.jpeg');
 }
 
 #picture5 {
@@ -95,6 +95,29 @@
     background-image: url('/public/picture6.jpg');
 }
 
+#picture7 {
+    background-image: url('/public/picture7.jpg');
+}
+
+#picture8 {
+    background-image: url('/public/picture8.jpeg');
+}
+
+#picture9 {
+    background-image: url('/public/picture9.jpg');
+}
+
+#picture10 {
+    background-image: url('/public/picture10.jpeg');
+}
+
+#picture11 {
+    background-image: url('/public/picture11.jpg');
+}
+
+#picture12 {
+    background-image: url('/public/picture12.jpeg');
+}
 
 
 @media screen and (min-width: 650px) and (max-width: 1000px) {

@@ -1,12 +1,16 @@
 import React from 'react'
 import '../styles/Footer.css'
+import { Trans, useTranslation } from 'react-i18next'
 
 const Footer = () => {
+
+const {t} = useTranslation()
+
   return (
     <div>
       <footer id='footer'>
         <h3>
-          Entre em contato através das redes abaixo:
+          {t("h3.title")}
         </h3>
         <section id='socialMedia'>
           <a href="https://wa.me/351911905251">
@@ -22,7 +26,7 @@ const Footer = () => {
         <p className='copyright'>
           &copy;
           <a href="https://github.com/Tiago-Viniciuss" target='_blank'>Tiago Razorman. </a>
-          Todos os direitos reservados, 2024<span></span>
+          {t("rights.title")}<span></span>
         </p>
       </footer>
     </div>
