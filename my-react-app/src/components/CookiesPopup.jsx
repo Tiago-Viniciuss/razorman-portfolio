@@ -28,8 +28,8 @@ const CookiesPopup = () => {
     const cookiesDeclined = localStorage.getItem('CookieDeclined')
     if(cookiesAccepted || cookiesDeclined) {
         setIsVisible(false)
-    }
-  })
+    } 
+  }) 
 
   return (
     isVisible && (
